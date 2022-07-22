@@ -1,0 +1,5 @@
+train: C:/Users/ksesh/pythonProject8/dataset/images/train/
+val: C:/Users/ksesh/pythonProject8/dataset/images/valid/
+
+nc: 1
+names: ['tr']
