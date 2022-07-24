@@ -9,5 +9,5 @@ parser.add_argument("-d",
 if __name__ == '__main__':
     args = parser.parse_args()
     myfile = open(args.dataset+'/sig.yaml', 'w+')
-    myfile.write('train: {a}/images/train/\nval: {a}/images/val/\n\nnc: 1\nnames: [\'tr\']'.format(a=args.dataset))
+    myfile.write('train: {a}/images/train/\nval: {a}/images/valid/\n\nnc: 1\nnames: [\'tr\']'.format(a=args.dataset))
 
