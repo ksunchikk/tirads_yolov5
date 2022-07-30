@@ -1,5 +1,0 @@
-train: /content/drive/MyDrive/yolov5_tirads/dataset/images/train/
-val: /content/drive/MyDrive/yolov5_tirads/dataset/images/valid/
-
-nc: 1
-names: ['tr']
